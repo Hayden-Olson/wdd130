@@ -1,1 +1,70 @@
-header
+h1 {
+    color: slateblue;
+}
+
+main h1 {
+    color: slateblue;
+}
+
+/* Decendent Selector */
+footer p {
+    font-size: larger;
+    color: lightblue;
+}
+
+/* Class Selector */
+footer.my-footer p {
+    font-size: larger;
+    background-color: lightblue
+}
+
+/* ID Selector */
+#my-footer p {
+    font-size: larger;
+    background-color: lightblue
+}
+
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+/* Psudo Class Selection */
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+img {
+    width: 300px;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+* {
+    border: 2px solid blue;
+}
+
+/*
+Apsolutes
+    px
+    pt
+Relative
+    %
+    em
+    rem
+    vw
+    vh
+*/
