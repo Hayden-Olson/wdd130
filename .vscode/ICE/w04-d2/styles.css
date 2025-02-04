@@ -1,0 +1,43 @@
+body {
+    background-color:steelblue;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    
+    font-family: Arial;
+}
+
+h1 {
+    color:white;
+}
+
+h1:hover {
+    color: black;
+}
+
+.title {
+    color:white;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+img {
+    width: 40%;
+
+}
+
+p.quote {
+    font-size: 200%;
+}
+
+div {
+    color:black;
+}
+
+ol {
+    margin: 0 auto;
+    text-align: left;
+}
