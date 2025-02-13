@@ -1,0 +1,44 @@
+body {
+    border: 1px solid black;
+    font-size: 45px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: 0 auto;
+   
+}
+
+
+#text-main {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+    font-size: 3em;
+    text-align: center;
+}
+
+#img-cherry {
+    max-width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+}
+
+#gray-box {
+    max-width: 100%;
+    background-color: lightgray;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#text-cherry {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: 1;
+    color: red;
+    font-size: 2em;
+}
