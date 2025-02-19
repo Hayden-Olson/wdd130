@@ -7,9 +7,8 @@ body {
     grid-template-columns: 1fr 1fr;
     width: 70%;
     margin: 0 auto;
-   
+    align-self: start;
 }
-
 
 #text-main {
     grid-column: 1/3;
@@ -40,6 +39,10 @@ body {
     grid-row: 2/3;
     z-index: 1;
     color: darkred;
-    font-size: 2em;
+    font-size: 100px;
     text-align: center;
+    align-items: center;
+    letter-spacing: center;
+    letter-spacing: 0.2em;
+    align-self: start;
 }
