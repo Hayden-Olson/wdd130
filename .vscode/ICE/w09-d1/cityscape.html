@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: black;
+        }
+        h1 {
+            font-size: 1.9em;
+            margin: 0 auto 25px;
+        }
+        h4 {
+            margin: 0;
+            color: blue;
+            font-size: 0.8em;
+            font-weight: 400;
+        }
+        .card {
+            width: 300px;
+            grid-column: 2/3;
+            display: grid;
+            gap: 25px;
+            background-color: white;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        .card .main p {
+            color: purple;
+            line-height: 1.3em;
+            width: 80%;
+
+        }
+        .card footer .detail div:nth-of-type(2){
+            text-transform: uppercase;
+            font-size: x-small;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="card">
+        <img src="w09_ice_img.jpg" alt="cityscape image">
+        <div>
+            <h3>3 weeks ago</h3>
+            <h1>Post Three</h1>
+            <p>
+                This would be some text to go here and tell you about this awesome article that they should definitely read. 
+                This would be some text to go here and tell you about this awesome article that they should definitely read. 
+                This would be some text to go here.
+            </p>
+        </div>
+        <footer>
+            <div class="detail">
+                <div>5<sup>m</sup></div>
+                <div>read</div>
+            </div>
+            <div class="detail">
+                <div>2031</div>
+                <div>views</div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
