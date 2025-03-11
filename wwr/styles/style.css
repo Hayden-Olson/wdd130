@@ -283,4 +283,12 @@ footer .social img {
         margin-top: 25px;
     }
 }
-            
+/* Start FAQ styles */
+.faq-content h1{
+    text-align: center;
+    justify-content: center;
+    color: #4473A1;
+    font-family: Rock Salt, Roboto, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
