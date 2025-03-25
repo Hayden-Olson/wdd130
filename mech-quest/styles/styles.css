@@ -37,13 +37,8 @@ body {
     margin: 0;
 }
 
-div {
-    max-width: 1200px;
-}
-
 #content {
     margin: 0 auto;
-    max-width: 1200px;
     color: #FFDD64;
     text-align: center;
 }
@@ -56,7 +51,7 @@ div {
 h1, h2 {
     font-family: var(--heading-font);
     letter-spacing: 3px;
-    padding: 0em 4em;
+    padding: 0em 6em;
 }
 
 p {
@@ -117,6 +112,7 @@ footer {
     margin: 0;
     height: 140px;
     object-position: bottom;
+    padding: 10px;
 }
 
 footer p:nth-child(1) {
@@ -166,6 +162,16 @@ footer a {
 footer a:hover {
     color: var(--nav-hover-link-color);
 }
+
+@media screen and (max-width: 900px) {
+
+    h1 {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
   
   /* Home Content */
   .home-content {
@@ -191,4 +197,8 @@ footer a:hover {
     position: absolute;
     right: 0;
     aspect-ratio: 6/2;
+}
+
+.home-content p:nth-of-type(1) {
+    margin-bottom: 10em;
 }
