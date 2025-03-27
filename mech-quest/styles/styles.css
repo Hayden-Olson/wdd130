@@ -215,35 +215,35 @@ padding-top: 50px;
   /* Bottom left text */
   .bottom-left {
     position: absolute;
-    bottom: 200px;
-    left: 16px;
+    bottom: 30%;
+    left: 25%;
   }
   
   /* Top left text */
   .top-left {
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 40%;
   }
   
   /* Top right text */
   .top-right {
     position: absolute;
-    top: 90px;
-    right: 16px;
+    top: 20%;
+    right: 15%;
   }
   
   /* Bottom right text */
   .bottom-right {
     position: absolute;
-    bottom: 200px;
-    right: 70px;
+    bottom: 35%;
+    right: 30%;
   }
   
   /* Centered text */
   .centered {
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 40%;
     transform: translate(-50%, -50%);
   }
