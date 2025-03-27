@@ -173,11 +173,11 @@ footer a:hover {
     }
 }
   
-  /* Home Content */
-  .home-content {
-    display: grid;
-    padding-top: 50px;
-  }
+/* Home Content */
+.home-content {
+display: grid;
+padding-top: 50px;
+}
 
 .home-content img:nth-of-type(1) {
     justify-self: center;
@@ -202,3 +202,48 @@ footer a:hover {
 .home-content p:nth-of-type(1) {
     margin-bottom: 10em;
 }
+
+/* Gameplay Content */
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: #FFDD64;
+    font-family: var(--paragraph-font);
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 200px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 90px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 200px;
+    right: 70px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
