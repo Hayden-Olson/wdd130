@@ -205,45 +205,37 @@ padding-top: 50px;
 
 /* Gameplay Content */
 /* Container holding the image and the text */
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--paragraph-font);
+    padding: 1em 12em;
+}
+
+.container2 img { 
+    width: 600px;
+}
+
 .container {
     position: relative;
     text-align: center;
     color: #FFDD64;
     font-family: var(--paragraph-font);
   }
+
+  .container img {
+    position: relative;
+    left: 5%;
+
+  }
   
   /* Bottom left text */
   .bottom-left {
     position: absolute;
-    bottom: 30%;
-    left: 25%;
+    bottom: 20%;
+    left: 20%;
+    padding-right: 35em;
   }
-  
-  /* Top left text */
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 40%;
-  }
-  
-  /* Top right text */
-  .top-right {
-    position: absolute;
-    top: 20%;
-    right: 15%;
-  }
-  
-  /* Bottom right text */
-  .bottom-right {
-    position: absolute;
-    bottom: 35%;
-    right: 30%;
-  }
-  
-  /* Centered text */
-  .centered {
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-  }
+
+/* Story Content */
