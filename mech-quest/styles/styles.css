@@ -239,3 +239,7 @@ padding-right: 35em;
     float: right;
     justify-self: right;
 }
+
+.story-content img:nth-of-type(2) {
+    border: 15px, solid, #35F0D0;
+}
